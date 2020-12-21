@@ -1,5 +1,8 @@
 word = input('Ваше предложение: ').split()
 print(word)
-for i in range(1, len(word)+1):
-    print(i, '-', word[i-1])
+item = 1
 # не могу придумать, как сюда вписать {word[:10]}
+for x in word:
+
+    print(f'{item} {x[:10]}')
+    item += 1
