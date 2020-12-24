@@ -1,7 +1,7 @@
 def my_func(x, y):
-    result = pow(x, y)
+    result = x = x ** y
     return result
 
-result = my_func(8, 2)
+result = my_func(3, -4)
 print(result)
 
