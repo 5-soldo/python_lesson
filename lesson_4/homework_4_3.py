@@ -4,12 +4,12 @@
 
 
 new_list = []
-for el in range(20, 240):
+for el in range(20, 241):
     if el % 20 == 0 or el % 21 == 0:
         new_list.append(el)
 
 print(new_list)
 
 
-my_list = [el for el in range(20, 240) if el % 20 == 0 or el % 21 == 0]
+my_list = [el for el in range(20, 241) if el % 20 == 0 or el % 21 == 0]
 print(my_list)
